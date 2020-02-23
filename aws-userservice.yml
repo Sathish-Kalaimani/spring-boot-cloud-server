@@ -12,3 +12,15 @@ spring:
           ddl-auto: update     
         
 spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+
+eureka:
+  instance:
+   # hostname: http://localhost:8761
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 20
+
+  client:
+    service-url:
+      #defultZone: http://localhost:8761/eureka 
+       defaultZone: http://SpringDiscoveryServer-env.5iczumju8b.us-west-1.elasticbeanstalk.com/eureka

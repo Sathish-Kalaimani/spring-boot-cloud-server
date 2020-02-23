@@ -26,4 +26,4 @@ eureka:
   client:
     service-url:
       #defultZone: http://localhost:8761/eureka 
-       defaultZone:defaultZone: http://SpringDiscoveryServer-env.5iczumju8b.us-west-1.elasticbeanstalk.com/eureka
+       defaultZone: http://SpringDiscoveryServer-env.5iczumju8b.us-west-1.elasticbeanstalk.com/eureka
